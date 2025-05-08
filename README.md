@@ -29,4 +29,19 @@ stow rofi
 
 >The dotfiles have hidden files use ``ls -la`` or ```tree -a```
 
+### Wallpapers
+The wallpapers are placed in ```~/Wallpapers```
+
+```
+cd ~
+git clone https://github.com/orangci/walls-catppuccin-mocha
+mv walls-catppuccin-mocha Wallpapers
+```
+To change to random Wallpaper 
+```
+cd dotfiles
+stow scripts
+~/.scripts/change_wallpaper.sh```
+
+if you are using the bindings just press F12
 

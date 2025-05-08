@@ -1,0 +1,32 @@
+## Enable syntax highlighting
+include /usr/share/nano/*.nanorc
+
+## Set the default color scheme
+## Uncomment the following lines to apply a custom theme.
+
+# Set the default text color
+#set foreground white
+#set background black
+
+# Highlight comments
+syntax "comments" "(#.*|//.*|/\*.*\*/)"
+color brightyellow "(#.*|//.*|/\*.*\*/)"
+
+# Highlight keywords for programming
+syntax "keywords" "\<if\>|\<else\>|\<for\>|\<while\>|\<return\>|\<function\>"
+color brightcyan "\<if\>|\<else\>|\<for\>|\<while\>|\<return\>|\<function\>"
+
+# Highlight numbers
+syntax "numbers" "\<[0-9]+\>"
+color brightmagenta "\<[0-9]+\>"
+
+# Highlight strings
+syntax "strings" "\".*\"|'.*'"
+color brightgreen "\".*\"|'.*'"
+
+# Highlight TODO/FIXME/NOTE
+syntax "annotations" "TODO|FIXME|NOTE"
+color brightred "TODO|FIXME|NOTE"
+
+## Add your own custom syntax rules below
+# Include more language-specific configurations if needed.

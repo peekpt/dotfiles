@@ -18,11 +18,5 @@ alias bbb="nvim $HOME/.bashrc"
 
 # If not running interactively, don't do anything
 
-[[ $- != *i* ]] && return
-
-#PS1='[\u@\h \W]\$ '
-
 export PATH="$PATH:/home/paulo/development/sdk/flutter/bin"
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
-
-nerdfetch

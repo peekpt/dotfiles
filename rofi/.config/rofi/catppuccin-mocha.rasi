@@ -1,14 +1,14 @@
 * {
-    bg-col:  #1e1e2e;
-    bg-col-light: #1e1e2e;
-    border-col: #1e1e2e;
-    selected-col: #1e1e2e;
+    bg-col:  #12041CFF;
+    bg-col-light: #E9D0ACFF;
+    border-col: #C781C5FF;
+    selected-col: #4F1364FF;
     blue: #89b4fa;
     fg-col: #cdd6f4;
     fg-col2: #f38ba8;
-    grey: #6c7086;
+    grey: #A67AB4FF;
     width: 600;
-    font: "JetBrainsMono Nerd Font 18";
+    font: "Caskaydia Nerd Font 24";
 }
 
 element-text, element-icon , mode-switcher {

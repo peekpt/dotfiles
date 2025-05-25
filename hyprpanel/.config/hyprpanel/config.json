@@ -591,12 +591,12 @@
   "theme.bar.buttons.modules.microphone.enableBorder": true,
   "theme.bar.floating": false,
   "theme.bar.location": "top",
-  "bar.autoHide": "never",
+  "bar.autoHide": "fullscreen",
   "theme.bar.buttons.enableBorders": true,
   "theme.bar.border.location": "none",
   "theme.bar.enableShadow": false,
   "theme.bar.border.width": "0.1em",
-  "theme.bar.buttons.borderSize": "0.02em",
+  "theme.bar.buttons.borderSize": "0.06em",
   "theme.bar.buttons.background_opacity": 75,
   "theme.bar.buttons.background_hover_opacity": 95,
   "theme.bar.buttons.opacity": 80,
@@ -645,6 +645,9 @@
         "windowtitle"
       ],
       "middle": [
+        "storage",
+        "ram",
+        "cpu",
         "media"
       ],
       "right": [
@@ -786,5 +789,6 @@
   "theme.bar.buttons.modules.ram.enableBorder": true,
   "theme.bar.buttons.modules.cpu.enableBorder": true,
   "theme.bar.buttons.modules.storage.enableBorder": true,
-  "theme.bar.buttons.modules.weather.enableBorder": true
+  "theme.bar.buttons.modules.weather.enableBorder": true,
+  "bar.customModules.ram.labelType": "percentage"
 }
